@@ -1,6 +1,6 @@
 export default {
   state: {
-    products: []
+    products: [],
   },
   mutations: {
       updateProducts(state, products) {
@@ -20,6 +20,5 @@ export default {
     allProducts(state) {
         return state.products
     }
-
   },
 }
