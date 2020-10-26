@@ -1,34 +1,30 @@
 <template >
-  <div class="bag" v-bind:cartData="cart">
-    <h1>Cart</h1>
-    <CartItem  
-      v-for="item in cartData"
-      :key="item.id"
-      :cartItemData="item" 
-    />
-  </div>
+  <div class="cart">
+    <h1 >Cart</h1>
+    <div class='d-flex align-items-stretch flex-wrap'>
+      <CartComp 
+        v-bind:cartData='cart'
+      />
+    </div>
+  </div> 
 </template>
 
 <script>
-import CartItem from '../components/CartItem'
+import CartComp from '../components/CartComp'
+
 import {mapGetters} from 'vuex'
+
 export default {
-  name: 'Bag',
+  name: 'Cart',
   components: {
-    CartItem,
+    CartComp
   },
   computed: mapGetters(['cart']),
-  props: {
-    cartData: {
-      type: Array,
-      default() {
-        return []
-      }
-    }
-  }
 }
 </script>
 
 <style>
-
+  .cart {
+    margin: auto;
+  }
 </style>

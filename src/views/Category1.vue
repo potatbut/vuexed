@@ -2,22 +2,17 @@
   <div class="category1">
     <h1>This is an category1</h1>
     <div class="d-flex align-items-stretch flex-wrap"> 
-      <Page />
+      <Catalog />
     </div>
   </div>
 </template>
 
 <script>
-import Page from '../components/Page'
+import Catalog from '../components/Catalog'
 export default {
   name: 'Category1',
-  data() {
-    return {
-
-    }
-  },
   components: {
-    Page
+    Catalog
   }
 }
 </script>

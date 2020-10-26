@@ -1,6 +1,5 @@
 <template>
-  <div class="page" >
-    <h1>Component Test</h1>
+  <div class="catalog" >
       <div class="card-deck cards">
         <Item
           class="card-body" 
@@ -21,7 +20,7 @@ import { mapActions } from 'vuex'
 import Item from '../components/Item'
 
 export default {
-  name: 'Page',
+  name: 'Catalog',
   computed: mapGetters(['allProducts']),
   async mounted() {
     this.$store.dispatch('fetchProducts')
@@ -41,7 +40,7 @@ export default {
 </script>
 
 <style>
-  .page{
+  .catalog{
     margin: auto;
   }
 </style>

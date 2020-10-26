@@ -2,7 +2,7 @@
     <div class="cartItem">
         <img :src="cartItemData.url" class="card-img-top">
         <h5 class="card-title" >{{cartItemData.title}}</h5>
-        <button  href="#" class="btn btn-primary">Delete</button>
+        <button @click="deleteFromCart()" href="#" class="btn btn-primary">Delete</button>
     </div>
     
 </template>
@@ -17,13 +17,14 @@ export default {
                 return {}
             }
         }
+    },
+    methods: {
+        deleteFromCart() {
+            this.$emit('deleteFromCart')
+        }
     }
 }
 </script>
 
 <style >
-    .cartItem {
-        width: 250px;
-        
-    }
 </style>
