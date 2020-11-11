@@ -1,6 +1,6 @@
 # vuexed
 
 An example with Vue.
-Work in progressю.
+Work in progress.
 
 [CLick for demo](https://potatbut.github.io/vuexed/#/).
