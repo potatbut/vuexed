@@ -2,7 +2,7 @@
     <div class="cartItem">
         <img :src="cartItemData.url" class="card-img-top">
         <h5 class="card-title" >{{cartItemData.title}}</h5>
-        <button @click="deleteFromCart()" href="#" class="btn btn-primary">Delete</button>
+        <button @click="deleteFromCart()" href="#" class="btn btn-primary">Удалить</button>
     </div>
     
 </template>

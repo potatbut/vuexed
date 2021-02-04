@@ -15,16 +15,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link to="/" class="nav-link">Home</router-link> 
+                        <router-link to="/" class="nav-link">Домашняя страница</router-link> 
                     </li>
                     <li class="nav-item">
-                        <router-link to="/category1" class="nav-link">Category1</router-link> 
+                        <router-link to="/category1" class="nav-link">Категория 1</router-link> 
                     </li>
                     <li class="nav-item">
-                        <router-link to="/category2" class="nav-link">Category2</router-link> 
+                        <router-link to="/category2" class="nav-link">Категория 2</router-link> 
                     </li>
                     <li class="nav-item">
-                        <router-link to="/cart" class="nav-link">Cart</router-link>
+                        <router-link to="/cart" class="nav-link">Корзина</router-link>
                     </li>
                 </ul>
             </div>

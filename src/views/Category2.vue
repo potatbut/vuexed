@@ -1,6 +1,6 @@
 <template>
   <div class="category2">
-    <h1>This is an category2</h1>
+    <h1>Это категория 2</h1>
     <div class="d-flex align-items-stretch flex-wrap"> 
       <Catalog />
     </div>

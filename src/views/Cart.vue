@@ -1,6 +1,6 @@
 <template >
   <div class="cart">
-    <h1 >Cart</h1>
+    <h1 >Корзина</h1>
     <div class='d-flex align-items-stretch flex-wrap'>
       <CartComp 
         v-bind:cartData='cart'
